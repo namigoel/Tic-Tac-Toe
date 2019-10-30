@@ -115,7 +115,7 @@ public class MainActivity extends AppCompatActivity {
                 start();
                 return;
             }
-            user = user ^ 1;
+            user = user ^ 1; // switching between users 1 and 0 
             //draw
             if (cnt == 9) {
                 make ("DRAW");
